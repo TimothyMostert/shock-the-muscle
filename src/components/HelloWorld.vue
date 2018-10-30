@@ -24,7 +24,7 @@ export default {
       fetch('/.netlify/functions/hello').then(response => response.json()).then((json) => { this.lambdaMsg = json.msg; });
     },
     createTable() {
-      fetch('./netlify/functions/mongodb').then((response) => { console.log(response); this.jsonTable = response; });
+      fetch('/.netlify/functions/mongodb').then((response) => { this.jsonTable = response; });
     },
   },
 };
