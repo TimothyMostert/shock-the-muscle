@@ -35,7 +35,8 @@ export default {
 .hello
   width 500px
   margin auto
-  background blue
+  background lightgrey
+  padding 20px
 
 h3
   margin 40px 0 0
